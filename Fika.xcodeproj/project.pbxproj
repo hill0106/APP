@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		372B5BF426159A1500AC7104 /* GothamRounded-BookItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 372B5BE826159A1400AC7104 /* GothamRounded-BookItalic.otf */; };
+		372B5BF526159A1500AC7104 /* GothamRounded-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 372B5BE926159A1400AC7104 /* GothamRounded-Medium.otf */; };
+		372B5BF626159A1500AC7104 /* GothamRoundedBook_21018.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 372B5BEA26159A1400AC7104 /* GothamRoundedBook_21018.ttf */; };
+		372B5BF726159A1500AC7104 /* GothamRoundedLight_21020.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 372B5BEB26159A1400AC7104 /* GothamRoundedLight_21020.ttf */; };
+		372B5BF826159A1500AC7104 /* GothamRounded-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 372B5BEC26159A1400AC7104 /* GothamRounded-Bold.otf */; };
+		372B5BF926159A1500AC7104 /* GothamRounded-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 372B5BED26159A1400AC7104 /* GothamRounded-MediumItalic.otf */; };
+		372B5BFA26159A1500AC7104 /* GothamRoundedBold_21016.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 372B5BEE26159A1400AC7104 /* GothamRoundedBold_21016.ttf */; };
+		372B5BFB26159A1500AC7104 /* GothamRounded-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 372B5BEF26159A1400AC7104 /* GothamRounded-BoldItalic.otf */; };
+		372B5BFC26159A1500AC7104 /* GothamRounded-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 372B5BF026159A1400AC7104 /* GothamRounded-Book.otf */; };
+		372B5BFD26159A1500AC7104 /* GothamRounded-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 372B5BF126159A1500AC7104 /* GothamRounded-Light.otf */; };
+		372B5BFE26159A1500AC7104 /* GothamRoundedMedium_21022.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 372B5BF226159A1500AC7104 /* GothamRoundedMedium_21022.ttf */; };
+		372B5BFF26159A1500AC7104 /* GothamRounded-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 372B5BF326159A1500AC7104 /* GothamRounded-LightItalic.otf */; };
+		373D95AD25FF91C500312F7E /* FikaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373D95AC25FF91C500312F7E /* FikaApp.swift */; };
+		373D95AF25FF91C500312F7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373D95AE25FF91C500312F7E /* ContentView.swift */; };
+		373D95B125FF91C900312F7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 373D95B025FF91C900312F7E /* Assets.xcassets */; };
+		373D95B425FF91C900312F7E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 373D95B325FF91C900312F7E /* Preview Assets.xcassets */; };
+		373D95BF25FF91C900312F7E /* FikaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373D95BE25FF91C900312F7E /* FikaTests.swift */; };
+		373D95CA25FF91C900312F7E /* FikaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373D95C925FF91C900312F7E /* FikaUITests.swift */; };
+		373D960D2607A19500312F7E /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373D960C2607A19500312F7E /* SignUp.swift */; };
+		373D96122607ABCD00312F7E /* Terms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373D96112607ABCD00312F7E /* Terms.swift */; };
+		373D96172607AC0700312F7E /* Lookfor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373D96162607AC0700312F7E /* Lookfor.swift */; };
+		373D96222607AF4B00312F7E /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373D96212607AF4B00312F7E /* Details.swift */; };
+		373D962D26091F2300312F7E /* School&Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373D962C26091F2300312F7E /* School&Job.swift */; };
+		374ECEDB2624476A007C6DCB /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374ECEDA2624476A007C6DCB /* Date.swift */; };
+		374ECEE026246C26007C6DCB /* Eldwin-ScriptBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 374ECEDF26246C26007C6DCB /* Eldwin-ScriptBold.otf */; };
+		374ECEE826246CF4007C6DCB /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374ECEE726246CF4007C6DCB /* Match.swift */; };
+		37578CF2263FC80C008313CF /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37578CF1263FC80C008313CF /* Home.swift */; };
+		37595CF8260B8EA300CAEB3B /* Hobby.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37595CF7260B8EA300CAEB3B /* Hobby.swift */; };
+		37595D00260BA6C500CAEB3B /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37595CFF260BA6C500CAEB3B /* Photos.swift */; };
+		37595D08260BA81500CAEB3B /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37595D07260BA81500CAEB3B /* Location.swift */; };
+		37595D10260BAB9800CAEB3B /* Nova.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37595D0F260BAB9800CAEB3B /* Nova.swift */; };
+		37D659C626234BE8001D4510 /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D659C526234BE8001D4510 /* Places.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		373D95BB25FF91C900312F7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 373D95A125FF91C500312F7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 373D95A825FF91C500312F7E;
+			remoteInfo = Fika;
+		};
+		373D95C625FF91C900312F7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 373D95A125FF91C500312F7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 373D95A825FF91C500312F7E;
+			remoteInfo = Fika;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		372B5BE826159A1400AC7104 /* GothamRounded-BookItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-BookItalic.otf"; sourceTree = "<group>"; };
+		372B5BE926159A1400AC7104 /* GothamRounded-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-Medium.otf"; sourceTree = "<group>"; };
+		372B5BEA26159A1400AC7104 /* GothamRoundedBook_21018.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamRoundedBook_21018.ttf; sourceTree = "<group>"; };
+		372B5BEB26159A1400AC7104 /* GothamRoundedLight_21020.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamRoundedLight_21020.ttf; sourceTree = "<group>"; };
+		372B5BEC26159A1400AC7104 /* GothamRounded-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-Bold.otf"; sourceTree = "<group>"; };
+		372B5BED26159A1400AC7104 /* GothamRounded-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-MediumItalic.otf"; sourceTree = "<group>"; };
+		372B5BEE26159A1400AC7104 /* GothamRoundedBold_21016.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamRoundedBold_21016.ttf; sourceTree = "<group>"; };
+		372B5BEF26159A1400AC7104 /* GothamRounded-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-BoldItalic.otf"; sourceTree = "<group>"; };
+		372B5BF026159A1400AC7104 /* GothamRounded-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-Book.otf"; sourceTree = "<group>"; };
+		372B5BF126159A1500AC7104 /* GothamRounded-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-Light.otf"; sourceTree = "<group>"; };
+		372B5BF226159A1500AC7104 /* GothamRoundedMedium_21022.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamRoundedMedium_21022.ttf; sourceTree = "<group>"; };
+		372B5BF326159A1500AC7104 /* GothamRounded-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-LightItalic.otf"; sourceTree = "<group>"; };
+		373D95A925FF91C500312F7E /* Fika.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fika.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		373D95AC25FF91C500312F7E /* FikaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FikaApp.swift; sourceTree = "<group>"; };
+		373D95AE25FF91C500312F7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		373D95B025FF91C900312F7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		373D95B325FF91C900312F7E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		373D95B525FF91C900312F7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		373D95BA25FF91C900312F7E /* FikaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FikaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		373D95BE25FF91C900312F7E /* FikaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FikaTests.swift; sourceTree = "<group>"; };
+		373D95C025FF91C900312F7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		373D95C525FF91C900312F7E /* FikaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FikaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		373D95C925FF91C900312F7E /* FikaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FikaUITests.swift; sourceTree = "<group>"; };
+		373D95CB25FF91C900312F7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		373D960C2607A19500312F7E /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		373D96112607ABCD00312F7E /* Terms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Terms.swift; sourceTree = "<group>"; };
+		373D96162607AC0700312F7E /* Lookfor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lookfor.swift; sourceTree = "<group>"; };
+		373D96212607AF4B00312F7E /* Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
+		373D962C26091F2300312F7E /* School&Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "School&Job.swift"; sourceTree = "<group>"; };
+		374ECEDA2624476A007C6DCB /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		374ECEDF26246C26007C6DCB /* Eldwin-ScriptBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Eldwin-ScriptBold.otf"; sourceTree = "<group>"; };
+		374ECEE726246CF4007C6DCB /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		37578CF1263FC80C008313CF /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		37595CF7260B8EA300CAEB3B /* Hobby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hobby.swift; sourceTree = "<group>"; };
+		37595CFF260BA6C500CAEB3B /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
+		37595D07260BA81500CAEB3B /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		37595D0F260BAB9800CAEB3B /* Nova.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nova.swift; sourceTree = "<group>"; };
+		37D659C526234BE8001D4510 /* Places.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		373D95A625FF91C500312F7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		373D95B725FF91C900312F7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		373D95C225FF91C900312F7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		372B5BE7261599D100AC7104 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				372B5BEC26159A1400AC7104 /* GothamRounded-Bold.otf */,
+				374ECEDF26246C26007C6DCB /* Eldwin-ScriptBold.otf */,
+				372B5BEF26159A1400AC7104 /* GothamRounded-BoldItalic.otf */,
+				372B5BF026159A1400AC7104 /* GothamRounded-Book.otf */,
+				372B5BE826159A1400AC7104 /* GothamRounded-BookItalic.otf */,
+				372B5BF126159A1500AC7104 /* GothamRounded-Light.otf */,
+				372B5BF326159A1500AC7104 /* GothamRounded-LightItalic.otf */,
+				372B5BE926159A1400AC7104 /* GothamRounded-Medium.otf */,
+				372B5BED26159A1400AC7104 /* GothamRounded-MediumItalic.otf */,
+				372B5BEE26159A1400AC7104 /* GothamRoundedBold_21016.ttf */,
+				372B5BEA26159A1400AC7104 /* GothamRoundedBook_21018.ttf */,
+				372B5BEB26159A1400AC7104 /* GothamRoundedLight_21020.ttf */,
+				372B5BF226159A1500AC7104 /* GothamRoundedMedium_21022.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		373D95A025FF91C500312F7E = {
+			isa = PBXGroup;
+			children = (
+				372B5BE7261599D100AC7104 /* Fonts */,
+				373D95AB25FF91C500312F7E /* Fika */,
+				373D95BD25FF91C900312F7E /* FikaTests */,
+				373D95C825FF91C900312F7E /* FikaUITests */,
+				373D95AA25FF91C500312F7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		373D95AA25FF91C500312F7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				373D95A925FF91C500312F7E /* Fika.app */,
+				373D95BA25FF91C900312F7E /* FikaTests.xctest */,
+				373D95C525FF91C900312F7E /* FikaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		373D95AB25FF91C500312F7E /* Fika */ = {
+			isa = PBXGroup;
+			children = (
+				373D95AC25FF91C500312F7E /* FikaApp.swift */,
+				373D95AE25FF91C500312F7E /* ContentView.swift */,
+				373D960C2607A19500312F7E /* SignUp.swift */,
+				373D96112607ABCD00312F7E /* Terms.swift */,
+				373D96212607AF4B00312F7E /* Details.swift */,
+				373D96162607AC0700312F7E /* Lookfor.swift */,
+				373D962C26091F2300312F7E /* School&Job.swift */,
+				37595CF7260B8EA300CAEB3B /* Hobby.swift */,
+				37595CFF260BA6C500CAEB3B /* Photos.swift */,
+				37595D07260BA81500CAEB3B /* Location.swift */,
+				37595D0F260BAB9800CAEB3B /* Nova.swift */,
+				37D659C526234BE8001D4510 /* Places.swift */,
+				37578CF1263FC80C008313CF /* Home.swift */,
+				374ECEDA2624476A007C6DCB /* Date.swift */,
+				374ECEE726246CF4007C6DCB /* Match.swift */,
+				373D95B025FF91C900312F7E /* Assets.xcassets */,
+				373D95B525FF91C900312F7E /* Info.plist */,
+				373D95B225FF91C900312F7E /* Preview Content */,
+			);
+			path = Fika;
+			sourceTree = "<group>";
+		};
+		373D95B225FF91C900312F7E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				373D95B325FF91C900312F7E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		373D95BD25FF91C900312F7E /* FikaTests */ = {
+			isa = PBXGroup;
+			children = (
+				373D95BE25FF91C900312F7E /* FikaTests.swift */,
+				373D95C025FF91C900312F7E /* Info.plist */,
+			);
+			path = FikaTests;
+			sourceTree = "<group>";
+		};
+		373D95C825FF91C900312F7E /* FikaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				373D95C925FF91C900312F7E /* FikaUITests.swift */,
+				373D95CB25FF91C900312F7E /* Info.plist */,
+			);
+			path = FikaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		373D95A825FF91C500312F7E /* Fika */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 373D95CE25FF91C900312F7E /* Build configuration list for PBXNativeTarget "Fika" */;
+			buildPhases = (
+				373D95A525FF91C500312F7E /* Sources */,
+				373D95A625FF91C500312F7E /* Frameworks */,
+				373D95A725FF91C500312F7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fika;
+			productName = Fika;
+			productReference = 373D95A925FF91C500312F7E /* Fika.app */;
+			productType = "com.apple.product-type.application";
+		};
+		373D95B925FF91C900312F7E /* FikaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 373D95D125FF91C900312F7E /* Build configuration list for PBXNativeTarget "FikaTests" */;
+			buildPhases = (
+				373D95B625FF91C900312F7E /* Sources */,
+				373D95B725FF91C900312F7E /* Frameworks */,
+				373D95B825FF91C900312F7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				373D95BC25FF91C900312F7E /* PBXTargetDependency */,
+			);
+			name = FikaTests;
+			productName = FikaTests;
+			productReference = 373D95BA25FF91C900312F7E /* FikaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		373D95C425FF91C900312F7E /* FikaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 373D95D425FF91C900312F7E /* Build configuration list for PBXNativeTarget "FikaUITests" */;
+			buildPhases = (
+				373D95C125FF91C900312F7E /* Sources */,
+				373D95C225FF91C900312F7E /* Frameworks */,
+				373D95C325FF91C900312F7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				373D95C725FF91C900312F7E /* PBXTargetDependency */,
+			);
+			name = FikaUITests;
+			productName = FikaUITests;
+			productReference = 373D95C525FF91C900312F7E /* FikaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		373D95A125FF91C500312F7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					373D95A825FF91C500312F7E = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					373D95B925FF91C900312F7E = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 373D95A825FF91C500312F7E;
+					};
+					373D95C425FF91C900312F7E = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 373D95A825FF91C500312F7E;
+					};
+				};
+			};
+			buildConfigurationList = 373D95A425FF91C500312F7E /* Build configuration list for PBXProject "Fika" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 373D95A025FF91C500312F7E;
+			productRefGroup = 373D95AA25FF91C500312F7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				373D95A825FF91C500312F7E /* Fika */,
+				373D95B925FF91C900312F7E /* FikaTests */,
+				373D95C425FF91C900312F7E /* FikaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		373D95A725FF91C500312F7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372B5BFD26159A1500AC7104 /* GothamRounded-Light.otf in Resources */,
+				372B5BF426159A1500AC7104 /* GothamRounded-BookItalic.otf in Resources */,
+				373D95B425FF91C900312F7E /* Preview Assets.xcassets in Resources */,
+				374ECEE026246C26007C6DCB /* Eldwin-ScriptBold.otf in Resources */,
+				372B5BFC26159A1500AC7104 /* GothamRounded-Book.otf in Resources */,
+				372B5BFA26159A1500AC7104 /* GothamRoundedBold_21016.ttf in Resources */,
+				372B5BF926159A1500AC7104 /* GothamRounded-MediumItalic.otf in Resources */,
+				372B5BFB26159A1500AC7104 /* GothamRounded-BoldItalic.otf in Resources */,
+				372B5BF626159A1500AC7104 /* GothamRoundedBook_21018.ttf in Resources */,
+				372B5BFE26159A1500AC7104 /* GothamRoundedMedium_21022.ttf in Resources */,
+				372B5BF826159A1500AC7104 /* GothamRounded-Bold.otf in Resources */,
+				372B5BFF26159A1500AC7104 /* GothamRounded-LightItalic.otf in Resources */,
+				372B5BF526159A1500AC7104 /* GothamRounded-Medium.otf in Resources */,
+				373D95B125FF91C900312F7E /* Assets.xcassets in Resources */,
+				372B5BF726159A1500AC7104 /* GothamRoundedLight_21020.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		373D95B825FF91C900312F7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		373D95C325FF91C900312F7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		373D95A525FF91C500312F7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37595D00260BA6C500CAEB3B /* Photos.swift in Sources */,
+				373D96122607ABCD00312F7E /* Terms.swift in Sources */,
+				37595D08260BA81500CAEB3B /* Location.swift in Sources */,
+				373D96172607AC0700312F7E /* Lookfor.swift in Sources */,
+				37595CF8260B8EA300CAEB3B /* Hobby.swift in Sources */,
+				37578CF2263FC80C008313CF /* Home.swift in Sources */,
+				373D96222607AF4B00312F7E /* Details.swift in Sources */,
+				37595D10260BAB9800CAEB3B /* Nova.swift in Sources */,
+				373D960D2607A19500312F7E /* SignUp.swift in Sources */,
+				373D95AF25FF91C500312F7E /* ContentView.swift in Sources */,
+				373D962D26091F2300312F7E /* School&Job.swift in Sources */,
+				373D95AD25FF91C500312F7E /* FikaApp.swift in Sources */,
+				374ECEDB2624476A007C6DCB /* Date.swift in Sources */,
+				37D659C626234BE8001D4510 /* Places.swift in Sources */,
+				374ECEE826246CF4007C6DCB /* Match.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		373D95B625FF91C900312F7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				373D95BF25FF91C900312F7E /* FikaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		373D95C125FF91C900312F7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				373D95CA25FF91C900312F7E /* FikaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		373D95BC25FF91C900312F7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 373D95A825FF91C500312F7E /* Fika */;
+			targetProxy = 373D95BB25FF91C900312F7E /* PBXContainerItemProxy */;
+		};
+		373D95C725FF91C900312F7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 373D95A825FF91C500312F7E /* Fika */;
+			targetProxy = 373D95C625FF91C900312F7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		373D95CC25FF91C900312F7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		373D95CD25FF91C900312F7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		373D95CF25FF91C900312F7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Fika/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Fika/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = trinity.Fika;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		373D95D025FF91C900312F7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Fika/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Fika/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = trinity.Fika;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		373D95D225FF91C900312F7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FikaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = trinity.FikaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fika.app/Fika";
+			};
+			name = Debug;
+		};
+		373D95D325FF91C900312F7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FikaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = trinity.FikaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fika.app/Fika";
+			};
+			name = Release;
+		};
+		373D95D525FF91C900312F7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FikaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = trinity.FikaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fika;
+			};
+			name = Debug;
+		};
+		373D95D625FF91C900312F7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FikaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = trinity.FikaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fika;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		373D95A425FF91C500312F7E /* Build configuration list for PBXProject "Fika" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				373D95CC25FF91C900312F7E /* Debug */,
+				373D95CD25FF91C900312F7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		373D95CE25FF91C900312F7E /* Build configuration list for PBXNativeTarget "Fika" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				373D95CF25FF91C900312F7E /* Debug */,
+				373D95D025FF91C900312F7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		373D95D125FF91C900312F7E /* Build configuration list for PBXNativeTarget "FikaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				373D95D225FF91C900312F7E /* Debug */,
+				373D95D325FF91C900312F7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		373D95D425FF91C900312F7E /* Build configuration list for PBXNativeTarget "FikaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				373D95D525FF91C900312F7E /* Debug */,
+				373D95D625FF91C900312F7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 373D95A125FF91C500312F7E /* Project object */;
+}
